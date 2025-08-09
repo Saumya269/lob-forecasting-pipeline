@@ -1,6 +1,4 @@
-# Synthetic Limit Order Book Forecasting Project 
 
-## Overview
 
 This project demonstrates **end-to-end mastery of high-frequency financial data engineering, synthetic data generation, and advanced time-series forecasting**. Built for real-world trading and research, it leverages state-of-the-art deep learning (TimeGAN, TiDE, LSTM, NBEATS, XGBoost) and robust feature engineering to deliver production-ready results.
 
@@ -30,21 +28,14 @@ This project demonstrates **end-to-end mastery of high-frequency financial data 
 ## Folder Structure
 
 ```
-lob-forecasting-project/
-│
-├── lob_data/                   # Raw and extracted LOB files
-├── timegan_output/             # Synthetic data, logs, model weights
-├── cleaned_lob_data.csv        # Preprocessed mid-price data
-├── cleaned_lob_data_with_features.csv
-├── processed_lob_data.csv      # Engineered features for classification
-├── synthetic_lob_data.npy      # Synthetic sequences (TimeGAN)
-├── synthetic_data_generation.ipynb
-├── feature_engineering&classification.ipynb
-├── forecasting.ipynb
-├── dataExtraction.ipynb
-├── enhanced_fast_timegan_comprehensive_results.png
-└── README.md                   
-```
+.
+├── dataExtraction.ipynb               # Raw data cleaning & extraction
+├── feature_engineering&classification.ipynb  # Feature engineering & classification
+├── forecasting.ipynb                  # Time series forecasting models
+├── synthetic_data_generation.ipynb    # Synthetic data generation with TimeGAN
+├── requirements.txt                    # Python dependencies
+└── README.md                           # Project documentation
+
 
 ---
 
