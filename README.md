@@ -27,7 +27,7 @@ This project demonstrates **end-to-end mastery of high-frequency financial data 
 
 ## Folder Structure
 
-```
+
 .
 ├── dataExtraction.ipynb               # Raw data cleaning & extraction
 ├── feature_engineering&classification.ipynb  # Feature engineering & classification
@@ -36,8 +36,8 @@ This project demonstrates **end-to-end mastery of high-frequency financial data 
 ├── requirements.txt                    # Python dependencies
 └── README.md                           # Project documentation
 
-
 ---
+
 
 ## How to Run
 
