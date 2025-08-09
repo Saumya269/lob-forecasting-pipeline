@@ -25,20 +25,21 @@ This project demonstrates **end-to-end mastery of high-frequency financial data 
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
 
+```plaintext
+lob-forecasting-pipeline/
+├── dataExtraction.ipynb
+├── enhanced_fast_timegan_comprehensive_results.png
+├── feature_engineering&classification.ipynb
+├── forecasting.ipynb
+├── synthetic_data_generation.ipynb
+├── synthetic_lob_data.npy
+└── README.md
 
-
-├── dataExtraction.ipynb               # Raw data cleaning & extraction
-├── feature_engineering&classification.ipynb  # Feature engineering & classification
-├── forecasting.ipynb                  # Time series forecasting models
-├── synthetic_data_generation.ipynb    # Synthetic data generation with TimeGAN
-├── requirements.txt                    # Python dependencies
-└── README.md                           # Project documentation
 
 ---
-
-
+```
 
 ## How to Run
 
